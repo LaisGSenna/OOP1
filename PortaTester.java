@@ -2,15 +2,28 @@ package br.lasalle.oop.trab1;
 
 public class PortaTester {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Carro carroPreto = new Carro();
-		carroPreto.cor = "preto";
+	Carro carroPreto = new Carro();
 		
+		carroPreto.modelo = "corolla";
+		carroPreto.cor = "preto";
+		carroPreto.ano = 2020;
+			
 		carroPreto.fechar();
 		
 		carroPreto.funcionar();
 		
+		
+		Elevador elevadorBass = new Elevador();
+		
+		elevadorBass.modelo = "panoramico";
+		elevadorBass.marca = "bass";
+		elevadorBass.ano = 2020;
+		elevadorBass.capacidade = 350;
+		
+		
+		elevadorBass.fechar();
+		elevadorBass.funcionar();
+
 	}
 
 }
