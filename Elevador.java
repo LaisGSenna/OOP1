@@ -8,10 +8,10 @@ public class Elevador {
 	boolean aberto;
 	
 	void funcionar() {
-		if(!aberto) 
+		if(aberto) 
 			System.out.println("Em funcionamento!");
 		else
-		    System.out.println("Portas abertas! N„o est· operando!");
+		    System.out.println("Portas abertas! N√£o est√° operando!");
 		
 	}
 	
